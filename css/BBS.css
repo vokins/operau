@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+/*
+Name: /BBS看帖整理
+Version: 1.0.0.6
+Url: http://code.taobao.org/svn/simpleu/trunk/css/bbs.css
+Description: MayBe a Better Forum CSS.
+*/
+
+.postprofile dd ,.postprofile dt *:nth-child(n+2){display:none !important;}
+.postbody .content{min-height:0px !important;}
+.postprofile{margin:0px !important;}
+.postbody,.postprofile dt{margin-bottom:0px !important;margin-top:0px !important;}
+td[class="postcontent postbottom"]{min-height:0px !important;}
+
+#header,#footer,div[class="authorinfo"],div[class^="floot_left"],div[class="postact s_clear"],div[class="quote"],div[class^="related"],
+.modaction,.useraction,dl[class="newrate"],td[class="floot_left"],td[class="plc plm"],td[class="postauthor"],td[class="postcontent postbottom"]{
+display:none !important;
+}
+
+/*去广告*/
+div[id^="ad_thread"],div[class^="ad_text"]{display: none !important;}
+
+/*过滤网页上的隐藏文字*/
+SPAN[class="transparent"],[style*="font-size:0p"],[style*="font-size: 0p"]{ display: none !important }
